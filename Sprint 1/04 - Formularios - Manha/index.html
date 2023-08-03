@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários - Demo 4</title>
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Cadastro de Usuário</legend>
+
+                <div>
+                    <label for="input_email">Email:</label>
+                    <input type="email" id="input_email" placeholder="ex: teste@mail.com" name="email"
+                        value="batatinha" />
+                </div>
+
+                <div>
+                    <label for="input_password">Senha:</label>
+                    <input type="password" id="input_password" placeholder="Insira sua senha" name="password" />
+                </div>
+
+                <div>
+                    <label for="input_theme">Cor do tema:</label>
+                    <input type="color" id="input_theme" name="color_theme" />
+                </div>
+
+                <div>
+                    <label for="input_description">Fale sobre você:</label>
+                    <br />
+                    <textarea id="input_description" maxlength="100" rows="5" cols="10" name="description"
+                        placeholder="Descreva em até 100 caracteres"></textarea>
+
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Turma do usuário</legend>
+
+                <section>
+                    <p>Selecione a sua turma:</p>
+
+                    <div>
+                        <label for="radio_t18">T18</label>
+                        <input type="radio" id="radio_t18" value="T18" name="class" />
+                    </div>
+
+                    <div>
+                        <label for="radio_t19">T19</label>
+                        <input type="radio" id="radio_t19" value="T19" name="class" />
+                    </div>
+
+                    <div>
+                        <label for="radio_t20">T20</label>
+                        <input type="radio" id="radio_t20" value="T20" name="class" checked />
+                    </div>
+
+                </section>
+
+                <div>
+
+                    <label for="select_instructor">Instrutor da sua turma:</label>
+                    <select name="instructor" id="select_instructor">
+                        <option disabled selected>Selecione Instrutor</option>
+                        <option value="Alex">Alex</option>
+                        <option value="Chrystian">Chrystian</option>
+                        <option value="Lorena">Lorena</option>
+                        <option value="Thiago">Thiago</option>
+                        <option value="Vilson">Vilson</option>
+
+                    </select>
+                </div>
+            </fieldset>
+
+
+
+            <!-- <input type="submit" /> -->
+            <button type="submit">Cadastrar</button>
+
+
+
+
+        </form>
+    </main>
+
+</body>
+
+</html>
