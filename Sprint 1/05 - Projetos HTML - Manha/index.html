@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Ensino</title>
+</head>
+
+<body>
+    <header>
+        <h1>Kenzie Academy Brasil - Plataforma de Ensino</h1>
+    </header>
+    <main>
+        <h2>Cadastro de usuário</h2>
+        <form action="">
+            <section>
+                <h3>Dados do usuário</h3>
+
+                <label for="input_name">Nome:</label>
+                <input type="text" id="input_name" name="name" required />
+                <br />
+
+                <label for="input_surname">Sobrenome:</label>
+                <input type="text" id="input_surname" name="surname" required />
+                <br />
+
+                <label for="input_cpf">CPF:</label>
+                <input type="text" id="input_cpf" name="cpf" required />
+                <br />
+
+                <label for="input_telephone">Telefone:</label>
+                <input type="text" id="input_telephone" name="telephone" required />
+                <br />
+            </section>
+            <section>
+                <h3>Endereço</h3>
+
+                <label for="input_cep">CEP:</label>
+                <input type="text" id="input_cep" name="cep" required />
+                <br />
+
+                <label for="input_street">Rua:</label>
+                <input type="text" id="input_street" name="street" required />
+                <br />
+
+                <label for="input_number">Número:</label>
+                <input type="number" id="input_number" name="number" required />
+                <br />
+
+                <label for="input_complement">Complemento:</label>
+                <input type="text" id="input_complement" name="complement" required />
+                <br />
+            </section>
+            <section>
+                <h3>Configurações de conta</h3>
+
+                <fieldset>
+                    <legend>Tipo de conta:</legend>
+
+                    <input type="radio" id="radio_account" name="account" value="Básica" />
+                    <label for="radio_account">Básica</label>
+
+                    <input type="radio" id="radio_account" name="account" value="Prime" />
+                    <label for="radio_account">Prime</label>
+
+                    <input type="radio" id="radio_account" name="account" value="Premium" />
+                    <label for="radio_account">Premium</label>
+                </fieldset>
+
+                <label for="select_time">Tempo de contrato:</label>
+                <br />
+                <select name="time" id="select_time">
+                    <option value="" selected disabled>Selecione uma opção</option>
+                    <option value="6_meses">6 meses</option>
+                    <option value="1_ano">1 ano</option>
+                    <option value="2_anos">2 anos</option>
+                    <option value="4_anos">4 anos</option>
+                </select>
+                <br />
+
+                <label for="input_password">Senha:</label>
+                <input type="password" id="input_password" name="user_password" required>
+            </section>
+            <section>
+                <h3>Pesquisa</h3>
+
+                <label for="ease_learning">Como você avalia a facilidade do aprendizado? (1 a 5)</label><br />
+                <input type="number" id="ease_learning" name="ease_learning" min="1" max="5" value="5" />
+                <br />
+
+                <label for="quality_content">Como você avalia a qualidade do conteúdo até aqui? (1 a 5)</label><br />
+                <input type="number" id="quality_content" name="quality_content" min="1" max="5" value="5" />
+                <br />
+
+                <label for="recomend">Qual a chance de você recomendar o curso para um amigo? (1 a 5)</label><br />
+                <input type="range" id="recomend" name="recomend" min="1" max="5">
+            </section>
+
+            <input type="submit" value="Cadastrar">
+
+        </form>
+    </main>
+
+</body>
+
+</html>
