@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Cadastro de usuário</legend>
+
+                <label for="email">Email:</label>
+                <input id="email" type="text" placeholder="mail@email.com" name="email" required>
+                
+                <br>
+
+                <label for="senha">Senha:</label>
+                <input id="senha" type="password" name="senha" required>
+
+                <br>
+
+                <label>Cor do perfil:</label>
+                <input type="color" name="cor">
+
+                <section>
+                    <p>Selecione a turma:</p>
+                    <div>
+                        <input type="radio" name="turma" value="t18">
+                        <label>T18</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="turma" value="t19">
+                        <label>T19</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="turma" value="t20">
+                        <label>T20</label>
+                    </div>
+                </section>
+
+                <br>
+
+                <section>
+                    <label for="instrutor">Instrutor(a)</label>
+                    <select id="instrutor" name="instrutor">
+                        <option disabled selected>Selecione seu instrutor</option>
+                        <option value="alex">Alex</option>
+                        <option value="lore">Lorena</option>
+                        <option value="thiago">Thiago</option>
+                        <option value="vilson">Vilson</option>
+                    </select>
+                </section>
+                
+                <br>
+                <br>
+
+                <section>
+                    <label for="">Descrição</label> <br>
+                    <textarea placeholder="Descreva aqui uma breve descrição" maxlength="100" cols="25" rows="4" name='descricao'></textarea>
+                </section>
+
+                <!-- <input type="submit" value="Enviar informações"> -->
+
+                <button>Clique aqui</button>
+                
+            </fieldset>
+
+            <!-- <fieldset>
+                <legend>Endereço</legend>
+
+                <label>CEP</label>
+                <input>
+
+                <label>Rua</label>
+                <input>
+
+                <label>Numero</label>
+                <input>
+            </fieldset> -->
+        </form>
+    </body>
+</html>
