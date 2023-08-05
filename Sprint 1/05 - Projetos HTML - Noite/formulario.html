@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de usuário</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Dados do usuário</legend>
+                <!--  Dados do usuários: nome, sobrenome, data de nascimento, cpf, rg, telefone. -->
+                <div>
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text">
+               
+                    <label for="sobrenome">Sobrenome</label>
+                    <input id="sobrenome" type="text">
+                </div>
+                <br>
+                <div>
+                    <label for="nascimento">Data de nascimento</label>
+                    <input id="nascimento" type="date">
+
+                    <label for="telefone" >Telefone</label>
+                    <input id="telefone" type="tel" placeholder="+55 (41) 99999-9999">
+                </div>
+                <br>
+                <div>
+                    <label for="rg">RG</label>
+                    <input id="rg" type="text" placeholder="9.999.999-0">
+
+                    <label for="cpf">CPF</label>
+                    <input id="cpf" type="text" placeholder="000.000.000-00">
+                </div>
+            </fieldset>
+            <fieldset>
+                <!-- Endereço: CEP, rua, numero, complemento. -->
+                <legend>Endereço</legend>
+                
+                <label>CEP</label>
+                <input type="text" placeholder="80.000-400" style="margin-bottom: 20px;">
+                
+                <br>
+
+                <label>Rua</label>
+                <input type="text" style="margin-bottom: 20px;">
+
+                <br>
+
+                <label>Numero</label>
+                <input type="number" style="margin-bottom: 20px;">
+
+                <br>
+                
+                <label>Complemento</label>
+                <input type="text" placeholder="Ap 12 Bloco 2" style="margin-bottom: 20px;">
+            </fieldset>
+            <fieldset>
+                <!-- Configurações da conta: tipo de conta(básico, prime, premium), tempo de contrato(6 meses, 1 ano, 2 anos, 4 anos),  forma de pagamento (a vista, parcelado em 6x, mensal), senha. -->
+                <legend>Configurações da conta</legend>
+
+                <fieldset>
+                    <legend>Tipo de conta</legend>
+
+                    <input type="radio" name="conta" value="basico">
+                    <label>Básico</label>
+
+                    <input type="radio" name="conta" value="prime">
+                    <label>Prime</label>
+
+                    <input type="radio" name="conta" value="premium">
+                    <label>Premium</label>
+                </fieldset>
+
+                <br>
+
+                <label for="contrato">Tempo de contrato</label>
+                <select id="contrato">
+                    <option>6 meses</option>
+                    <option>1 ano</option>
+                    <option>2 anos</option>
+                    <option>4 anos</option>
+                </select>
+                <br>
+                <div>
+                    <p>Configurações gerais:</p>
+                    <input type="checkbox" name="Avista">
+                    <label>Tem acesso ao canvas</label>
+
+                    <input type="checkbox" name="parcelado">
+                    <label>Tem acesso ao slack</label>
+
+                    <input type="checkbox" name="mensal">
+                    <label>Tem acesso ao zoom</label>
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Pesquisa</legend>
+
+                <p> Como você avalia sua facilidade de aprendizado?</p>
+                <input type="range" min="1" max="5">
+
+                <p>Como você avalia a qualidade do seu ensino até aqui?</p>
+                <input type="number" min="1" max="5" value="5">
+
+                <p>Qual a chance de recomendar o curso para uma amigo?</p>
+
+
+                <input type="radio" value="1" name="recomendacao">
+                <label>1</label>
+
+                <input type="radio" value="2" name="recomendacao">
+                <label>2</label>
+
+                <input type="radio" value="3" name="recomendacao">
+                <label>3</label>
+
+                <input type="radio" value="4" name="recomendacao">
+                <label>4</label>
+
+                <input type="radio" value="5" name="recomendacao">
+                <label>5</label>
+            </fieldset>
+
+            <input type="submit">
+            <button>Envie suas informações</button>
+        </form>
+    </body>
+</html>
+
+<!-- 
+    Desenvolva uma página somente com HTML, para receber informações de um usuário ao se cadastrar em uma plataforma de ensino, contendo as seções: dados do usuário, endereço, configurações da conta e pesquisa.
+
+    Dados do usuários: nome, sobrenome, data de nascimento, cpf, rg, telefone.
+
+    Endereço: CEP, rua, numero, complemento.
+
+    Configurações da conta: tipo de conta(básico, prime, premium), tempo de contrato(6 meses, 1 ano, 2 anos, 4 anos),  forma de pagamento (a vista, parcelado em 6x, mensal), senha.
+
+    Pesquisa: 
+        Como você avalia sua facilidade de aprendizado? (1 a 5)
+        Como você avalia a qualidade do seu ensino até aqui? (1 a 5)
+        Qual a chance de recomendar o curso para uma amigo? (1 a 5) -->
