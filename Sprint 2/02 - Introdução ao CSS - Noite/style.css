@@ -1,0 +1,73 @@
+/* CSS - Cascading Style Sheets -> Folha de estilo em cascata */
+/* 
+    Seletores:
+      - Seletor universal (*)
+      - Seletor de tag (Sem prefixo)
+      - Seletor de classe (.)
+      - Seletor de ID (#)
+     
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+/* 
+*{
+    color: grey;
+}
+
+p{
+    color: blue;
+}
+
+.estilizado{
+    font-weight: bold;
+}
+
+.font-diferente{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#parag-2{
+    color: green;
+}
+
+#parag-3{
+    color: red;
+} */
+
+body{
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(12,0,255,1) 100%);
+}
+
+*{
+    color: rgba(255, 255, 255, 1);
+}
+
+p{
+    color: yellow;
+    font-family: 'Borel', cursive;
+    font-size: 10px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.teste{
+    color: orange;
+    background: lightblue;
+}
+
+#teste{
+    color: green;
+}
+
+/* Atalho para comentar: [CTRL + ;] ou [CTRL + /] */
+
+div{
+    color: red;
+}
+
+span{
+    color:cyan
+}
