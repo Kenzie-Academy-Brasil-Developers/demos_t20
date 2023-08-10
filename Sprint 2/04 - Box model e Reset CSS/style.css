@@ -1,0 +1,90 @@
+.primeira,
+.segunda {
+  /* display: inline-block; */
+  color: white;
+  height: 200px;
+  width: 200px;
+
+  text-align: center;
+
+  /* Shorthand Borda */
+  /* border: 5px solid black; */
+  border: 5px;
+  /* border-bottom: 3px; */
+  border-color: black;
+  border-style: solid;
+
+  /* Shorthand Espaçamento Externo */
+  /* margin: 30px 40px 10px 20px; */
+  margin: 10px auto;
+  /* margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 30px; */
+
+  /* Shorthand Espaçamento Interno */
+  /* padding: 10px 20px 30px 40px; */
+  /* padding: 10px; */
+  /* padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 30px; */
+}
+
+.primeira {
+  background-color: blue;
+}
+
+.segunda {
+  background-color: green;
+}
+
+.caixas {
+  border: 10px;
+  /* border-radius: 100%; */
+  margin: auto;
+  width: fit-content;
+}
+
+.primaria {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(166, 169, 0);
+  color: whitesmoke;
+  padding: 30px;
+  text-align: center;
+
+  border-bottom: 5px solid black;
+  border-top: 5px solid blue;
+  /* border-color: blue;
+  border-style: solid; */
+}
+
+.secundaria {
+  border-color: green;
+  border-style: solid;
+}
+
+.terciaria {
+  border-color: red;
+  border-style: solid;
+}
+
+span {
+  background-color: brown;
+  color: white;
+}
+
+.text-box {
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+strong {
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+}
