@@ -1,0 +1,63 @@
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+main {
+  margin: 0;
+}
+
+article {
+  margin: 20px 5px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#popular {
+  height: 300px;
+}
+
+.post-popular {
+  border: 3px solid #4b3434;
+  display: inline-block;
+  /* background-image: url(./stars.jpg); */
+  background-image: url("https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg");
+  background-color: rgb(0, 0, 0);
+  color: #e8e8e8;
+}
+
+.post-popular p {
+  max-width: 15ch;
+  max-height: 20ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+}
+
+#recente {
+  margin: 20px auto;
+}
+
+.post-recente {
+  border: 3px dashed #073c82;
+  width: 400px;
+  margin: 20px auto;
+  background: #2336c3;
+  background: linear-gradient(
+    137deg,
+    rgba(35, 54, 195, 1) 25%,
+    rgba(36, 107, 147, 1) 47%,
+    rgba(20, 126, 98, 1) 88%
+  );
+
+  color: #e8e8e8;
+}
+
+article h3 {
+  font-size: 18px;
+}
