@@ -1,0 +1,44 @@
+body {
+  overflow-x: hidden;
+}
+
+section {
+  background-color: green;
+  height: 270px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-content: center;
+  gap: 25px;
+
+  overflow-x: scroll;
+}
+
+div {
+  /* height: 100px;
+  width: 100px; */
+  border: 3px solid black;
+  background-color: aliceblue;
+
+  padding: 20px;
+}
+
+.book-image {
+  width: 100px;
+}
+
+.box-yellow {
+  background-color: yellow;
+}
+.box-blue {
+  background-color: blue;
+}
+.box-red {
+  background-color: red;
+}
+.box-brown {
+  background-color: brown;
+}
