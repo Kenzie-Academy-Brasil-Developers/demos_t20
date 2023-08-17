@@ -1,0 +1,103 @@
+body{
+    background: yellow;
+}
+
+/* Parte 1 */
+div{
+    border: 1px solid black;
+    width: 200px;
+    margin: 5px;
+    color: red;
+    
+}
+p{ 
+    background: white;
+    color: blue;
+    transition: 500ms;
+}
+div > p{
+    color: green;
+}
+
+div:hover p{
+    color: red;
+    background: grey;
+}
+
+
+/* Parte 2 */
+input{
+    transition: 0.5s;
+
+}
+
+input:focus{
+    outline: 0;
+    width: auto;
+    border: 2px solid blue;
+    border-radius: 3px;
+}
+
+input:required{
+    background: rgb(255, 255, 184);
+}
+
+input:disabled{
+    background: black;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+
+input:checked{
+    margin: 10px ;
+}
+
+/* Parte 3 */
+article{
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.news{
+    background: grey;
+}
+.news p{
+    color: red;
+}
+
+.sports{
+    background: yellow;
+}
+.sports p{
+    color: green;
+}
+
+
+/* Parte 4 */
+img{
+    transition: 500ms;
+}
+img:hover{
+    transform: scale(1.2);
+    border: 5px solid transparent;
+}
+
+p{
+    color: red;
+}
+
+
+button{
+    background: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    color: black;
+    transition: 1s;
+    padding: 5px 20px; 
+}
+
+button:hover{
+    background: black;
+    color: yellow;
+}
