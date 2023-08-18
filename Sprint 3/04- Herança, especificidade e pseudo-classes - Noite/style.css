@@ -1,0 +1,118 @@
+
+/* Herança */
+.exemplo-1{
+    border: 2px solid black;
+    background: greenyellow;
+    /* color: red; */
+    /* font-size: 30px; */
+}
+
+p{
+    font-size: 15px;
+}
+
+/* Especificidade */
+/* section > p{
+    color: orange;
+} */
+
+.exemplo-1 > p{
+    color: red;
+} 
+
+.exemplo-1 > div > p{
+    color: blue;
+}
+
+.exemplo-1 p{
+    font-weight: bold;
+}
+
+main, footer{
+    display: none;
+}
+
+/* 
+Prioridade do seletor
+* -> seletor universal
+tag -> seletor de tag
+.class -> seletor de classe
+#id -> seletor de id
+*/
+
+/* Pseudo-classse */
+
+div{
+    /* border: 2px solid black; */
+}
+
+p{
+    text-align: center;
+    transition: 500ms;
+}
+
+.p1:hover{
+    background: cyan;
+    color: rgb(255, 0, 111);
+}
+
+.p2:hover{
+    background: greenyellow;
+    color: orangered;
+}
+
+section > .card{
+    width: 120px;
+    background: rgb(189, 189, 189);
+    border: 2px solid black;
+    transition: 500ms;
+}
+
+#cards{
+    display: flex;
+}
+
+#cards img{
+    width: 100%;
+}
+
+/* #cards img:hover{
+    border: 3px solid white;
+} */
+
+/* .card:hover{
+    border: 4px solid red;
+    border-image: url(https://cbissn.ibict.br/images/galeria_em_artigos/image04_grd.png) 30 round;
+} */
+
+.card:hover p{
+    font-size: 1.5rem;
+}
+
+
+#card-2{
+    background:rgb(255, 0, 111);
+}
+
+a:hover{
+    color:rgb(255, 0, 111);
+}
+
+
+input:focus{
+    outline: 0;
+}
+
+
+
+#bg-teste{
+    background-image: url('https://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png');
+    width: 100%;
+    height: 80px;
+    background-size: 100%;
+    background-blend-mode: saturation;
+}
+
+#bg-teste:hover{
+    background-blend-mode: overlay;
+}
