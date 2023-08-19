@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    transition: 500ms;
+}
+
+body{
+    background: grey;
+    background-image: url(./vila.jpg);
+    background-position: 0;
+    background-size: cover;
+    
+}
+
+header{
+    text-align: center;
+    background: rgba(255,255,255,0.75);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+header:hover{
+    background: white;
+}
+
+header > img{
+    max-height: 60%;
+}
+
+main{
+    box-sizing: border-box;
+    height: 90vh;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    max-height: 1380px;
+    margin: 0 auto;
+
+}
+
+.container{
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.75); 
+    width: 49%;
+    border-radius: 12px;
+    padding: 20px 40px;
+}
+
+.container > img{
+    width: 50%;
+    border-radius: 15px 100% 100% 15px; 
+    transition: 1s;
+    max-height: 40vh;
+}
+
+.container > img:hover{
+    width: 100%;
+    border-radius: 15px; 
+}
+
+.container:hover{
+    background: white;
+}
+
+p{
+    color: rgb(91, 91, 91);
+}
+
+.informations{
+    margin-top: 20px; 
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.informations p{
+    margin: 20px auto;
+    font-size: 1.2rem;
+}
+
+.nome::before{
+    content: "Nome: ";
+    color: black;
+}
+
+.sobrenome::before{
+    content: "Sobrenome: ";
+    color: black;
+}
+
+.descricao::before{
+    content: "Descrição: ";
+    color: black;
+}
+
+.cidade::before{
+    content: "Cidade: ";
+    color: black;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.configuracoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+input, select{
+    border: none;
+    border-bottom: 3px solid black;
+    font-size: 1.5rem;
+}
+
+input:focus, select:focus{
+    outline: 0;
+    border-color: rgb(0, 192, 0);
+}
+
+button{
+    border: 3px solid black;
+    background: rgba(255,255,255,0.5);
+    font-size: 1.5rem;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 1s;
+}
+
+button:hover{
+    background: rgba(0,0,0,0.8);
+    color: white;
+}
+
+select{
+    color: grey;
+}
