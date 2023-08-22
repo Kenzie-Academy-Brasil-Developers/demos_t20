@@ -19,8 +19,8 @@ const mensagemUsuarioV2 = "Seja muito bem vindo(a) " + nomeUsuario + "!";
 
 // Alert -> Saída de dados, uma forma de enviar um alerta, uma mensagem, para o usuário
 //const mensagemIdade = `A sua idade é ${idadeUsuario}!`;
-//alert(mensagemIdade)
-//alert("Seja muito bem-vindo(a)")
+//alert(mensagemIdade);
+//alert("Seja muito bem-vindo(a)");
 
 // Compararadores / Operadores de Comparação
 
@@ -100,9 +100,9 @@ const mensagemUsuarioV2 = "Seja muito bem vindo(a) " + nomeUsuario + "!";
 
 //"Batata" != "Batata"
 // Batata tem o valor diferente de Batata?
-// true : verdadeiro
+// false : falso
 
-// 10 !== "10"
+// 10 != "10"
 // 10 tem o valor diferente de 10?
 // false : falso
 
@@ -117,33 +117,33 @@ const mensagemUsuarioV2 = "Seja muito bem vindo(a) " + nomeUsuario + "!";
 
 //Estrutura de condicionais
 
-const entradaNome = prompt("Insira seu nome:")
+const entradaNome = prompt("Insira seu nome:");
 
 // Se entradaNome tem o mesmo valor e tipo de dado que Chrystian
 if( entradaNome === "Chrystian") {
     //execute isso
-    alert("Seja muito bem vindo Chrystian!")
+    alert("Seja muito bem vindo Chrystian!");
 }
 
 //Senão, se entradaNome tem o mesmo valor e tipo de dado que Thiago
 else if (entradaNome === "Thiago") {
     //Execute isso
-    alert("Seja muito bem vindo Mestre Thiago!")
+    alert("Seja muito bem vindo Mestre Thiago!");
 }
 
 // Senão
 else {
     // Execute isso
-    alert(`Bem vindo ${entradaNome}!`)
+    alert(`Bem vindo ${entradaNome}!`);
 }
 
-alert("Olá, sou eu de novo!")
+alert("Olá, sou eu de novo!");
 
 
 // ----------------------------------------------
 // undefined é um valor não definido
 
 let batata; // valor não foi definido
-let Cebola = true; // valor foi definido
+let cebola = true; // valor foi definido
 
 // null é um valor vazio, que não existe
