@@ -1,0 +1,2 @@
+peso;altura;imc;imc < 18.5;imc <= 24.99;imc <= 29.99;return
+58;1.68;20.55;false;true;-;Seu IMC é ${imc} e você está com o peso ideal!
