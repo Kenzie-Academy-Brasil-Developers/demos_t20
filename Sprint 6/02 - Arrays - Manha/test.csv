@@ -1,0 +1,5 @@
+i;array.length;i < array.length;array[i];array[i] === instrutor
+0;5;true;Alex;false
+1;5;true;Chrys;false
+2;5;true;Lorena;false
+3;5;true;Thiago;true
